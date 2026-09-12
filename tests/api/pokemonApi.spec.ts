@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 import { obtenerPokemon } from '../../src/api/pokemonApi';
 import { leerExcel } from '../../src/utils/excelHelper';
-import { SECRET_ENCRYPTED } from '../../src/config/private/environment';
+import { SECRET_ENCRYPTED } from '../../src/config/public/environment';
 
 const datos = leerExcel('test_data/Datos-pruebas.xlsx');
 
