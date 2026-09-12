@@ -1,0 +1,1 @@
+export const PHPTRAVELS_BASE_URL = 'https://phptravels.net/';
